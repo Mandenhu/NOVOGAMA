@@ -1,0 +1,38 @@
+.card-image {
+	position: relative;
+	height: 250px;
+	background-position: center center;
+	background-size: cover;
+	flex-shrink: 0;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+	padding: 8px 16px;
+	flex-grow: 1;
+}
+
+.card-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+body {
+	background-color: rgb(7, 247, 7);
+}
+
+.main-title {
+	margin: 15px;
+}
+
+.card-name h4 {
+	font-size: 20px;
+	color: rgb(213, 6, 255);
+}
+
+.card-info p {
+	color: rgb(213, 6, 255);
+}
